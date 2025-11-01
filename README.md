@@ -23,19 +23,6 @@ L’interfaccia mostra:
 - Hover effect sui pulsanti dei social link  
 - Layout centrato e moderno con sfondo scuro e accenti color lime  
 
-### ⚙️ Struttura del progetto
-├── assets/
-│ ├── images/
-│ │ ├── PhotoGianni.png
-│ │ └── icon.png
-│ └── CV_Navolio.pdf
-├── fonts/
-│ ├── Inter-Regular.woff2
-│ ├── Inter-Bold.woff2
-│ └── Inter-Italic.woff2
-├── style.css
-└── index.html
-
 ### 👨‍💻 Crediti
 Sviluppato da **[Gianni Navolio](https://github.com/gnavolio)**  
 > *"Sviluppatore per lavoro, ma soprattutto per passione."*
@@ -64,19 +51,6 @@ The interface includes:
 - “Download CV” button lets the user save the PDF  
 - Smooth hover effects on social links  
 - Centered, dark-themed layout with lime accent color  
-
-### ⚙️ Project Structure
-├── assets/
-│ ├── images/
-│ │ ├── PhotoGianni.png
-│ │ └── icon.png
-│ └── CV_Navolio.pdf
-├── fonts/
-│ ├── Inter-Regular.woff2
-│ ├── Inter-Bold.woff2
-│ └── Inter-Italic.woff2
-├── style.css
-└── index.html
 
 ### 👨‍💻 Credits
 Developed by **[Gianni Navolio](https://github.com/gnavolio)**  
