@@ -1,0 +1,119 @@
+/* ===== Font locale: Inter ===== */
+      @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+            url('../fonts/Inter-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+            url('../fonts/Inter-Bold.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-Italic.woff2') format('woff2'),
+            url('../fonts/Inter-Italic.woff') format('woff');
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+      }
+
+      /* ====================
+        RESET & BASE STYLES
+      ===================== */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: hsl(0, 0%, 8%);
+        font-family: 'Inter', sans-serif;
+        color: hsl(0, 0%, 100%);
+      }
+
+      /* ====================
+        CONTAINER PRINCIPALE
+      ===================== */
+      .container {
+        background-color: hsl(0, 0%, 12%);
+        text-align: center;
+        margin: 10rem auto 10rem auto;
+        padding: 50px;
+        border-radius: 15px;
+        max-width: 500px;
+        max-height: 850px;
+      }
+
+      @media (max-width: 500px) {
+        .container {
+          margin: 5rem 1rem 10% 1rem;
+          padding: 30px;
+        }
+      }
+
+      /* ====================
+        PROFILO & TESTO
+      ===================== */
+      #profile {
+        width: 150px;
+        border-radius: 50%;
+        margin: 1rem 0;
+      }
+
+      h1 {
+        font-weight: 700;
+      }
+
+      #location {
+        color: hsl(75, 94%, 57%);
+        margin: 1rem 0;
+      }
+
+      p {
+        font-size: 14px;
+        margin: 2rem 0;
+      }
+
+      /* ====================
+        SOCIAL LINKS
+      ===================== */
+      .social-links a {
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: large;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1em;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .social-links a:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 20%);
+      }
+
+      /* ====================
+        ATTRIBUZIONE
+      ===================== */
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
